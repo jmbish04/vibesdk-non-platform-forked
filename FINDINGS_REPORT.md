@@ -133,7 +133,7 @@ These services work on Cloudflare Workers free and paid tiers:
 ```typescript
 import { getSandbox, Sandbox, ExecuteResponse } from '@cloudflare/sandbox';
 
-export { Sandbox as UserAppSandboxService, Sandbox as DeployerService} from "@cloudflare/sandbox";
+export { Sandbox as UserAppSandboxService, Sandbox as DeployerService } from "@cloudflare/sandbox";
 ```
 
 **Purpose**:
